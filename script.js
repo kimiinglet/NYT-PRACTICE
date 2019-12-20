@@ -16,6 +16,9 @@ $("#searchBtn").on("click", function () {
 
 //on click clear results, the page clears their input
 $("#clearBtn").on("click", function () {
-
+    localStorage.clear();
+    $("#userSearch").text("");
+    $("#startYearInput").text("");
+    $("#endYearInput").text("");
 });
 
