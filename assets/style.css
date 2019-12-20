@@ -1,4 +1,4 @@
-#container {
+.container {
     margin: auto;
     width: 80%;
     border: solid;
@@ -7,8 +7,13 @@
 
 }
 
-.header {
-    background-color:darkblue;
+.jumbotron {
+    background-color:#0d2b58;
     color: white;
     font-size:36px;
+}
+
+.form {
+    border: solid;
+
 }
