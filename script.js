@@ -6,6 +6,16 @@
 
 //not required, if they have years, we also have to include year range in the search
 
+
+
+
 //on click submit-- the page queries the NYT API
+$("#searchBtn").on("click", function () {
+
+});
 
 //on click clear results, the page clears their input
+$("#clearBtn").on("click", function () {
+
+});
+
